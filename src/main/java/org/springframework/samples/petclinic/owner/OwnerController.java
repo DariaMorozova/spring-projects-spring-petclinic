@@ -55,11 +55,11 @@ class OwnerController {
     public String initCreationForm(Map<String, Object> model) {
         Owner owner = new Owner();
         model.put("owner", owner);
-        /*try {
+        try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
 
-        }*/
+        }
         return VIEWS_OWNER_CREATE_OR_UPDATE_FORM;
     }
 
